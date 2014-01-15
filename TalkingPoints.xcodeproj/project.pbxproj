@@ -22,6 +22,9 @@
 		48E4DBC11886425D003C9F74 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E4DBA51886425D003C9F74 /* CoreData.framework */; };
 		48E4DBC91886425D003C9F74 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48E4DBC71886425D003C9F74 /* InfoPlist.strings */; };
 		48E4DBCB1886425D003C9F74 /* TalkingPointsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E4DBCA1886425D003C9F74 /* TalkingPointsTests.m */; };
+		48E4DBD618864563003C9F74 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E4DBD418864563003C9F74 /* AddressBook.framework */; };
+		48E4DBD718864563003C9F74 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E4DBD518864563003C9F74 /* AddressBookUI.framework */; };
+		48E4DBD918864C51003C9F74 /* addressBookCode in Resources */ = {isa = PBXBuildFile; fileRef = 48E4DBD818864C51003C9F74 /* addressBookCode */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		48E4DBC61886425D003C9F74 /* TalkingPointsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkingPointsTests-Info.plist"; sourceTree = "<group>"; };
 		48E4DBC81886425D003C9F74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48E4DBCA1886425D003C9F74 /* TalkingPointsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkingPointsTests.m; sourceTree = "<group>"; };
+		48E4DBD418864563003C9F74 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		48E4DBD518864563003C9F74 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		48E4DBD818864C51003C9F74 /* addressBookCode */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = addressBookCode; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E4DBD618864563003C9F74 /* AddressBook.framework in Frameworks */,
+				48E4DBD718864563003C9F74 /* AddressBookUI.framework in Frameworks */,
 				48E4DBA21886425D003C9F74 /* CoreGraphics.framework in Frameworks */,
 				48E4DBA61886425D003C9F74 /* CoreData.framework in Frameworks */,
 				48E4DBA41886425D003C9F74 /* UIKit.framework in Frameworks */,
@@ -103,6 +111,8 @@
 		48E4DB9E1886425D003C9F74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48E4DBD418864563003C9F74 /* AddressBook.framework */,
+				48E4DBD518864563003C9F74 /* AddressBookUI.framework */,
 				48E4DB9F1886425D003C9F74 /* Foundation.framework */,
 				48E4DBA11886425D003C9F74 /* CoreGraphics.framework */,
 				48E4DBA31886425D003C9F74 /* UIKit.framework */,
@@ -120,6 +130,7 @@
 				48E4DBB61886425D003C9F74 /* Images.xcassets */,
 				48E4DBB31886425D003C9F74 /* TalkingPoints.xcdatamodeld */,
 				48E4DBA81886425D003C9F74 /* Supporting Files */,
+				48E4DBD818864C51003C9F74 /* addressBookCode */,
 			);
 			path = TalkingPoints;
 			sourceTree = "<group>";
@@ -231,6 +242,7 @@
 			files = (
 				48E4DBAC1886425D003C9F74 /* InfoPlist.strings in Resources */,
 				48E4DBB71886425D003C9F74 /* Images.xcassets in Resources */,
+				48E4DBD918864C51003C9F74 /* addressBookCode in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
